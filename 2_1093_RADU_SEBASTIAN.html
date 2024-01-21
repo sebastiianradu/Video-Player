@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Video Player</title>
+    <link rel="stylesheet" href="2_1093_RADU_SEBASTIAN.css">
+</head>
+<body>
+
+    <h1 class="heading">Custom Video Player</h1>
+
+    <div class="container">
+
+        <!-- main video adica video-ul care ruleaza pe ecranul principal -->
+        <div class="main-video">
+            <div class="main-video-container">
+            <canvas id="videoCanvas"></canvas> <!-- Aici am adaugat elementul canvas -->
+            <video id="mainVideo" data-id="" autoplay ></video>
+            <div id="controls">
+                <input type="range" id="progressBar" value="0" max="100">
+                <input type="range" id="volumeControl" value="100" max="100">
+            </div>
+            </div>
+            <div id="subtitleContainer"></div>
+            
+            <h3 class="title">Titlu 1:...</h3>
+            
+
+        </div>
+        
+<!-- lista de videoclipuri -->
+        <div class="video-list">
+            <div class="vid active" id="1" data-id="1">
+                <video src="media/videos/vid-1.mp4" ></video>
+                <h3 class="title">Titlu 1: Timelapse Cresterea unei Salate</h3>
+            </div>
+            <div class="vid" id="2" data-id="2">
+                <video src="media/videos/vid-2.mp4" muted ></video>
+                <h3 class="title">Titlu 2: Timelapse Cresterea Rosiilor Cherry</h3>
+            </div>
+            <div class="vid" id="3" data-id="3">
+                <video src="media/videos/vid-3.mp4" muted></video>
+                <h3 class="title">Titlu 3: Timelapse Cresterea unei Zambile</h3>
+            </div>
+            <div class="vid" id="4" data-id="4">
+                <video src="media/videos/vid-4.mp4" muted></video>
+                <h3 class="title">Titlu 4: Timelapse Cresterea unei Capsuni</h3>
+            </div>
+            <div class="vid" id="5" data-id="5">
+                <video src="media/videos/vid-5.mp4" muted></video>
+                <h3 class="title">Titlu 5: Timelapse Cresterea Busuiocului</h3>
+            </div>
+        </div>
+
+        <!-- inserarea de videoclipuri printr-un buton -->
+        <input type="file" id="fileInput" multiple style="display: none;">
+        <label for="fileInput" class="fileInputLabel">Selecteaza fisiere video</label>
+
+        <div class="effects-menu">
+            <label for="effectSelect">Selecteaza un efect:</label>
+            <select id="effectSelect">
+                <option value="none">None</option>
+                <option value="grayscale">Grayscale</option>
+                <option value="sepia">Sepia</option>
+            </select>
+        </div>
+
+    </div>
+
+    <script src="2_1093_RADU_SEBASTIAN.js"></script>
+
+</body>
+</html>

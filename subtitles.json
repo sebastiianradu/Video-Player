@@ -1,0 +1,16 @@
+[
+    {"id": 1, "start": 0, "end": 14, "text": "🥬🥬🥬Ziua 1-5 in cresterea unei salate🥬🥬🥬"},
+    {"id": 1, "start": 16, "end": 33, "text": "Ziua 6-10"},
+    {"id": 1, "start": 35, "end": 53, "text": "Ziua 11-15"},
+    {"id": 1, "start": 54, "end": 73, "text": "Ziua 16-20"},
+    {"id": 1, "start": 74, "end": 80, "text": "Ziua 20-23"},
+    {"id": 1, "start": 81, "end": 84, "text": "🥳🥳🥳 Salata este crescuta! 🥳🥳🥳"},
+    {"id": 2, "start": 0, "end": 34, "text": "🍅🍅🍅Ziua 1-30 in cresterea unei rosii cherry🍅🍅🍅"},
+    {"id": 2, "start": 35, "end": 67, "text": "Ziua 30-60"},
+    {"id": 2, "start": 68, "end": 97, "text": "Ziua 60-80"},
+    {"id": 2, "start": 98, "end": 107, "text": "🥳🥳🥳 Rosiile sunt crescute!🥳🥳🥳"},
+    {"id": 5, "start": 0, "end": 24, "text": "🌱🌱🌱Ziua 1-10 in cresterea unei plante de busuoic🌱🌱🌱"},
+    {"id": 5, "start": 25, "end": 50, "text": "Ziua 11-20"},
+    {"id": 5, "start": 51, "end": 59, "text": "🥳🥳🥳 BUSUIOCUL a crescut!🥳🥳🥳"}
+  ]
+  
